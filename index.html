@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>А.А. Шалыто - Заметки о мотивации</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+  <div class="bg-wallpaper"></div>
+
+  <div class="xp-window" role="dialog" aria-labelledby="window-title">
+    <div class="xp-title-bar">
+      <div class="xp-title-text" id="window-title">
+        <span class="xp-icon"></span>
+        <span>А.А. Шалыто - Заметки о мотивации.exe</span>
+      </div>
+      <div class="xp-controls" aria-hidden="true">
+        <div class="xp-control-btn">_</div>
+        <div class="xp-control-btn">□</div>
+        <div class="xp-control-btn close">✕</div>
+      </div>
+    </div>
+
+    <div class="xp-subtitle-bar">
+      Текст обо всем, который можно читать с любого места. Ред. 7.11.2026.
+    </div>
+
+    <div class="xp-body">
+      <div class="note-container">
+        <div class="note-title" id="note-header">Загрузка...</div>
+        <div class="note-text" id="note-body"></div>
+      </div>
+
+      <div class="xp-footer">
+        <button class="xp-btn xp-nav-arrow" id="prev-btn" type="button" title="Предыдущая заметка" aria-label="Предыдущая заметка">◀</button>
+
+        <div class="xp-center-controls">
+          <button class="xp-btn xp-btn-random" id="random-btn" type="button">Random</button>
+          <input class="xp-input" id="note-id-input" type="number" min="1" placeholder="1–8619" aria-label="Номер заметки">
+          <button class="xp-btn xp-btn-go" id="go-btn" type="button">Go</button>
+        </div>
+
+        <button class="xp-btn xp-nav-arrow" id="next-btn" type="button" title="Следующая заметка" aria-label="Следующая заметка">▶</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="badges-wrapper">
+    <div class="corner-badge badge-left">
+      <a href="https://is.ifmo.ru/belletristic/2026/Shalyto-Zametki-o-motivacii.pdf" target="_blank" rel="noopener noreferrer">Заметки о мотивации</a>
+    </div>
+
+    <div class="corner-badge badge-right">
+      А.А. Шалыто | <a href="https://is.ifmo.ru" target="_blank" rel="noopener noreferrer">Кафедра «Технологии программирования»</a>
+    </div>
+  </div>
+
+  <script src="notes.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
